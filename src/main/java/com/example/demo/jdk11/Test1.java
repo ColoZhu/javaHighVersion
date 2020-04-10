@@ -1,4 +1,4 @@
-package com.example.demo.testjava11;
+package com.example.demo.jdk11;
 
 import org.junit.Test;
 
@@ -14,6 +14,15 @@ import java.util.stream.Stream;
 
 
 public class Test1 {
+
+    public static void main(String[] args) {
+        System.out.println(1111);
+
+        /*Error:Cannot run program "C:\Program Files\Java\jdk-11.0.6\bin\java.exe"
+         (in directory "C:\Users\colo\.IntelliJIdea2019.3\system\compile-server"):
+          Malformed argument has embedded quote: -Dkotlin.daemon.client.alive.path=
+          \"C:\Users\colo\AppData\Local\Temp\kotlin-idea-8250180277424722164-is-running\"*/
+    }
 
     /**
      * 局部类型推断

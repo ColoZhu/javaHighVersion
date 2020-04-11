@@ -6,7 +6,7 @@ public class Test14 {
 
     @Test
     public void var() {
-        var str = "helloworld";
+        var str = "helloworl d";
         System.out.println(str);
     }
 
